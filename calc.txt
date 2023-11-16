@@ -1,0 +1,42 @@
+init = 0
+while init == 0:
+ def linha():
+     print('='*60)
+     return linha
+ linha ()
+ print('BEM - VINDO!')
+ linha()
+ num=int(input('Digite o número: '))
+ sinal=str(input('Escolha qual sinal você quer: '))
+ num2=int(input('Digite o número: '))
+ linha()
+    
+ if sinal == 'X' or sinal =='x': 
+        mult= num*num2
+        print(f'O resultado é {mult}')
+        linha()
+        
+ elif sinal == '/':
+        sub=num/num2
+        print(f'O resultado é {sub}')
+        linha()
+        
+ elif sinal == '+':
+        adi= num+num2
+        print(f'O resultado é {adi}')
+        linha()
+        
+ elif sinal == '-':
+        sub= num- num2
+        print(f'O resultado é {sub}')
+        linha()
+        
+ elif sinal == '^':
+    ele= num**num2
+    linha()
+
+
+    
+ else:
+        print('ERRO!')
+        linha()
